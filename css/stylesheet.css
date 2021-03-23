@@ -1,8 +1,19 @@
 body{
     font-family: "Baloo Tammudu 2", sans-serif;
     text-align: center;
+    background-color:#f2e9de;
+    color: #31748f ; 
 }
-
+h1.header{
+    margin: 0;
+    padding: 1em;
+    border:#59546d dotted;
+}
+h2{
+    padding:1em;
+    /* background-color:#31748f;
+    color: #f2e9de; ;  */
+}
 .aside_ul{
     list-style-type: square; 
     text-align: left;
@@ -28,6 +39,7 @@ body{
     background-color:#3e8fb0;
     padding: 0 1em;
     margin-left: 2em;
+    margin-right: 2em;
     margin-bottom: 2em;
     color:#faf4ed;
     border: none;
@@ -37,6 +49,7 @@ body{
     background-color:#59546d;
     padding: 1em;
     margin-right: 2em;
+    margin-left: 2em;
     margin-bottom: 2em;
     color:#faf4ed;
     border: none;
@@ -75,6 +88,11 @@ body{
     background-color:#f2e9de;
     height: 100vh;
     color: #31748f ; 
+}
+h1.header,.nav_ul{
+    background-color:#f2e9de;
+    color: #31748f ;
+    border: none;
 }
 .header{
     grid-column: 2/3;
